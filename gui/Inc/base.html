@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% block head %}
+        <link rel="stylesheet" href="style.css" />
+        <title>{% block title %}{% endblock %} - My Webpage</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="A Blog Powered By Kane">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="/static/favicon.svg">
+        <link rel="stylesheet" href="/static/styles/nanoreset.min.css">
+        <link rel="stylesheet" href="/static/styles/theme.css">
+    {% endblock %}
+    </head>
+    <body>
+    <div class="wrap" id="barba-wrapper" aria-live="polite">
+        <header>
+            <h1 class="branding"><a href="javascript:void(0);" title="Kane"><img class="logo-image" src="/static/images/logo.svg" alt="logo"></a></h1>
+            <ul class="nav nav-list">
+                <li class="nav-list-item"><a class="nav-list-link" href="/" target="_self">HOME</a></li>
+                <li class="nav-list-item"><a class="nav-list-link" href="/" target="_self">ABOUT</a></li>
+                <li class="nav-list-item"><a class="nav-list-link" href="https://github.com/greatkanedo" target="_blank">GITHUB</a></li>
+                <li class="nav-list-item"><a class="nav-list-link" href="https://tiaanduplessis.github.io/hexo-theme-brewski-demo/atom.xml" target="_self">RSS</a></li>
+            </ul>
+        </header>
+        <div class="barba-container" style="visibility: visible;">
+            {% block content %}{% endblock %}
+        </div>
+            <footer>
+                <div class="paginator"></div>
+                <div class="copyright">
+                    <p> &copy; 2014<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Content By Kane. All Rights Reserved. <a href="/">Kane Do</a>
+                        <br>Powered by <a href="/" rel="noreferrer" target="_blank">Kane</a></p>
+                </div>
+            </footer>
+        </div>
+    </div>
+        {% block javascript %}{% endblock %}
+    <script type="text/javascript" src="/static/js/love.js"></script>
+</body>
+</html>

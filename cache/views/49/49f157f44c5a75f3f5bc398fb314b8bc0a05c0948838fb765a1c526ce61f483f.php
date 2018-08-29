@@ -1,0 +1,654 @@
+<?php
+
+/* Home/index.html */
+class __TwigTemplate_7ef4a14cb2049bf9e7b581d56fc87c2be6cbd93c1316e341910524f8aee1dc5a extends Twig_Template
+{
+    private $source;
+
+    public function __construct(Twig_Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = array(
+        );
+    }
+
+    protected function doDisplay(array $context, array $blocks = array())
+    {
+        // line 1
+        echo "<html class=\" wf-source-han-serif-sc-n4-active wf-source-han-serif-sc-n7-active wf-active\">
+    <head>
+        <meta charset=\"utf-8\">
+        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge, chrome=1\">
+        <meta http-equiv=\"Cache-Control\" content=\"no-transform\">
+        <meta http-equiv=\"Cache-Control\" content=\"no-siteapp\">
+        <meta name=\"renderer\" content=\"webkit\">
+        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\">
+        <meta name=\"theme-color\" content=\"#ECEFF1\">
+        <meta name=\"msapplication-navbutton-color\" content=\"#ECEFF1\">
+        <meta name=\"mobile-web-app-capable\" content=\"yes\">
+        <meta name=\"application-name\" content=\"猫与向日葵\">
+        <meta name=\"msapplication-starturl\" content=\"https://imjad.cn\">
+        <meta name=\"msapplication-navbutton-color\" content=\"#ECEFF1\">
+        <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">
+        <meta name=\"apple-mobile-web-app-title\" content=\"猫与向日葵\">
+        <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black-translucent\">
+        <title>
+            猫与向日葵
+        </title>
+        <meta name=\"description\" content=\"浊以静之徐清，安以动之徐生\">
+        <meta name=\"keywords\" content=\"AD's Blog,journey.ad,imjad.cn,typecho,php,blog,猫与向日葵\">
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at
+        the end of file. -->
+        <!--[if lt IE 9]>
+        <![endif]-->
+    </head>
+    <body class=\"\">
+        <div class=\"waifu\" style=\"display: block;\">
+            <div class=\"waifu-tips\" style=\"opacity: 0;\">
+                因为无法再见面，所以要笑着说再见。
+            </div>
+            <canvas id=\"live2d\" width=\"280\" height=\"250\" class=\"live2d\">
+            </canvas>
+            <div class=\"waifu-tool\">
+                <span class=\"fui-home\">
+                </span>
+                <span class=\"fui-eye\">
+                </span>
+                <span class=\"fui-chat\">
+                </span>
+                <span class=\"fui-user\">
+                </span>
+                <span class=\"fui-photo\">
+                </span>
+                <span class=\"fui-info-circle\">
+                </span>
+                <span class=\"fui-cross\">
+                </span>
+            </div>
+        </div>
+        <header>
+            <div class=\"container\" id=\"main\">
+                <a id=\"logo\" href=\"https://imjad.cn/\">
+                    <svg class=\"animation\" height=\"60\" xmlns=\"http://www.w3.org/2000/svg\">
+                        <text stroke-dasharray=\"90 310\" stroke-width=\"1px\" text-shadow=\"0 0 1px #3498db\"
+                        stroke=\"#3498db\" fill=\"none\" text-transform=\"uppercase\" y=\"100%\" x=\"50%\"
+                        text-anchor=\"middle\" font-family=\"Makinas-Scrap-5-Cat-and-Sunflower\" font-size=\"60\">
+                            猫与向日葵
+                            <animate attributeName=\"stroke-dashoffset\" begin=\"-2s\" dur=\"8s\" from=\"0\"
+                            to=\"-400\" repeatCount=\"indefinite\">
+                            </animate>
+                        </text>
+                        <text stroke-dasharray=\"90 310\" stroke-width=\"1px\" text-shadow=\"0 0 1px #f39c12\"
+                        stroke=\"#f39c12\" fill=\"none\" text-transform=\"uppercase\" y=\"100%\" x=\"50%\"
+                        text-anchor=\"middle\" font-size=\"60\" font-family=\"Makinas-Scrap-5-Cat-and-Sunflower\">
+                            猫与向日葵
+                            <animate attributeName=\"stroke-dashoffset\" begin=\"-4s\" dur=\"8s\" from=\"0\"
+                            to=\"-400\" repeatCount=\"indefinite\">
+                            </animate>
+                        </text>
+                        <text stroke-dasharray=\"90 310\" stroke-width=\"1px\" text-shadow=\"0 0 1px #e74c3c\"
+                        stroke=\"#e74c3c\" fill=\"none\" text-transform=\"uppercase\" y=\"100%\" x=\"50%\"
+                        text-anchor=\"middle\" font-size=\"60\" font-family=\"Makinas-Scrap-5-Cat-and-Sunflower\">
+                            猫与向日葵
+                            <animate attributeName=\"stroke-dashoffset\" begin=\"-6s\" dur=\"8s\" from=\"0\"
+                            to=\"-400\" repeatCount=\"indefinite\">
+                            </animate>
+                        </text>
+                        <text stroke-dasharray=\"90 310\" stroke-width=\"1px\" text-shadow=\"0 0 1px #9b59b6\"
+                        stroke=\"#9b59b6\" fill=\"none\" text-transform=\"uppercase\" y=\"100%\" x=\"50%\"
+                        text-anchor=\"middle\" font-size=\"60\" font-family=\"Makinas-Scrap-5-Cat-and-Sunflower\">
+                            猫与向日葵
+                            <animate attributeName=\"stroke-dashoffset\" begin=\"-8s\" dur=\"8s\" from=\"0\"
+                            to=\"-400\" repeatCount=\"indefinite\">
+                            </animate>
+                        </text>
+                    </svg>
+                    <svg class=\"text\" height=\"60\" xmlns=\"http://www.w3.org/2000/svg\">
+                        <text font-family=\"Makinas-Scrap-5-Cat-and-Sunflower\" font-size=\"60\" fill=\"#69798b\"
+                        y=\"100%\" x=\"0\">
+                            猫与向日葵
+                        </text>
+                    </svg>
+                </a>
+                <!--猫与向日葵-->
+                <!--<p class=\"description\">浊以静之徐清，安以动之徐生</p>-->
+                <p class=\"description\">
+                    浊以静之徐清，安以动之徐生。
+                </p>
+                <hr>
+            </div>
+        </header>
+        <div id=\"main\" class=\"container\">
+            <div id=\"main-index\" style=\"\">
+                <h4>
+                    記事
+                </h4>
+                <article>
+                    <dl class=\"dl-horizontal\">
+                        <dt>
+                            <a style=\"color:#34495e;\" data-toggle=\"collapse\" href=\"#1\" aria-expanded=\"false\"
+                            aria-controls=\"使用FontForge为网站标题制作自定义字体\">
+                                <time datetime=\"2018-08-01T13:18:00+08:00\" itemprop=\"datePublished\">
+                                    Aug 1, 2018
+                                </time>
+                            </a>
+                        </dt>
+                        <dd>
+                            <a class=\"article-original\" style=\"\" itemtype=\"url\" href=\"https://imjad.cn/archives/lab/make-a-custom-font-for-the-title-of-the-website\">
+                                使用
+                                <space>
+                                </space>
+                                FontForge
+                                <space>
+                                </space>
+                                为网站标题制作自定义字体
+                            </a>
+                        </dd>
+                        <dd class=\"collapse in\" id=\"1\">
+                            <small>
+                                如果换个思路，一个网页一般情况下只使用了一部分字符，那么我们把所需的这些个字符从原始字体中提取出来，然后组成为一个新字体，不就可以减少大小了吗？Typekit
+                                <space>
+                                </space>
+                                正是这样做的，切片按需加载字体，极大减少了资源浪费。按着同样的思路，经过一番搜索之后，我找到了提取字体的方法
+                            </small>
+                        </dd>
+                    </dl>
+                </article>
+            </div>
+            <div id=\"pagenav\" class=\"text-right\" style=\"\">
+                <ul class=\"pager\">
+                    <li class=\"previous\">
+                        <a class=\"next\" title=\"\" href=\"https://imjad.cn/page/2/\">
+                            <span>
+                                <i class=\"fui-arrow-left\">
+                                </i>
+                            </span>
+                        </a>
+                    </li>
+                    <!-- Make dropdown appear above pagination -->
+                    <li class=\"pagination-dropdown dropup\">
+                        <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">
+                            <span class=\"fui-list\">
+                            </span>
+                        </a>
+                        <!-- Dropdown menu -->
+                        <ul class=\"dropdown-menu dropdown-menu-inverse\" style=\"margin-bottom:15px;\">
+                            <li>
+                                <a href=\"https://imjad.cn/archives.html\" target=\"_blank\">
+                                    Archives
+                                </a>
+                            </li>
+                            <li>
+                                <a href=\"https://imjad.cn/project.html\" target=\"_blank\">
+                                    Project
+                                </a>
+                            </li>
+                            <li>
+                                <a href=\"https://imjad.cn/links.html\" target=\"_blank\">
+                                    Links
+                                </a>
+                            </li>
+                            <li>
+                                <a href=\"https://imjad.cn/guestbook.html\" target=\"_blank\">
+                                    Guestbook
+                                </a>
+                            </li>
+                            <li>
+                                <a href=\"https://imjad.cn/booklist.html\" target=\"_blank\">
+                                    Booklist
+                                </a>
+                            </li>
+                            <li>
+                                <a href=\"https://imjad.cn/about.html\" target=\"_blank\">
+                                    About
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class=\"next\">
+                        <a title=\"\" data-toggle=\"tooltip\" data-original-title=\"没有了\">
+                            <span>
+                                <i class=\"fui-arrow-right\">
+                                </i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id=\"bottomtools\" style=\"\">
+                <h4 style=\"font-weight:400;\">
+                    (ฅ´ω`ฅ)
+                </h4>
+                <small>
+                    <ul>
+                        <section class=\"bottomtool\">
+                            <div id=\"hitokoto\" data-raw=\"{&quot;hitokoto&quot;:&quot;应该可以了吧，我已经很努力了，应该可以抵达终点了⋯⋯&quot;,&quot;author&quot;:&quot;绤谷少年。&quot;,&quot;source&quot;:&quot;AIR&quot;,&quot;date&quot;:&quot;2011.11.02 02:22:59&quot;,&quot;catname&quot;:&quot;Anime - 动画&quot;,&quot;id&quot;:&quot;1320171779000&quot;}\">
+                                Hitokoto&nbsp; · &nbsp;&nbsp;应该可以了吧，我已经很努力了，应该可以抵达终点了⋯⋯
+                            </div>
+                            <span style=\"padding-right: 1px;\">
+                                Category
+                            </span>
+                            · &nbsp;
+                            <a style=\"color:#95A5A6;\" href=\"https://imjad.cn/category/code/\">
+                                &amp;
+                                <space>
+                                </space>
+                                代码
+                            </a>
+                            &nbsp; · &nbsp;
+                            <a style=\"color:#95A5A6;\" href=\"https://imjad.cn/category/lab/\">
+                                &amp;
+                                <space>
+                                </space>
+                                实验室
+                            </a>
+                            &nbsp; · &nbsp;
+                            <a style=\"color:#95A5A6;\" href=\"https://imjad.cn/category/music/\">
+                                &amp;
+                                <space>
+                                </space>
+                                音乐
+                            </a>
+                            &nbsp; · &nbsp;
+                            <a style=\"color:#95A5A6;\" href=\"https://imjad.cn/category/acg/\">
+                                &amp;ACG
+                            </a>
+                            &nbsp; · &nbsp;
+                            <a style=\"color:#95A5A6;\" href=\"https://imjad.cn/category/none/\">
+                                &amp;
+                                <space>
+                                </space>
+                                未分类
+                            </a>
+                            &nbsp; · &nbsp;
+                            <a style=\"color:#95A5A6;\" href=\"https://imjad.cn/category/old-school/\">
+                                &amp;
+                                <space>
+                                </space>
+                                老古董
+                            </a>
+                            &nbsp; · &nbsp;
+                            <br>
+                        </section>
+                    </ul>
+                    <form method=\"post\">
+                        <input autocomplete=\"off\" name=\"s\" type=\"text\" class=\"form-control input-sm\"
+                        placeholder=\"Search anything here~\">
+                    </form>
+                </small>
+            </div>
+        </div>
+        <div id=\"thatsi\" style=\"margin-top: 20px;\">
+            <center>
+                <a style=\"color:#34495e;\" href=\"javascript:void(0)\">
+                    <i id=\"getT\" class=\"zmdi zmdi-chevron-down zmdi-hc-2x\">
+                    </i>
+                </a>
+            </center>
+        </div>
+        <img style=\"height: 0px;width: 0px;display: none;\" src=\"https://imjad.cn/usr/themes/Moricolor/img/icon@256x256.png\">
+        <footer id=\"footer\" class=\"container\" style=\"display: block;\">
+            <hr>
+            <div style=\"text-align:center;padding-bottom:9px;font-size:.9em;\">
+                <a href=\"http://www.miitbeian.gov.cn/\" rel=\"nofollow\" target=\"_blank\">
+                    豫ICP备15033156号-1
+                </a>
+                /
+                <a href=\"http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=41081102000052\"
+                rel=\"nofollow\" target=\"_blank\">
+                    <img style=\"height: 1.2em;vertical-align: middle;\" src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/ghs.png?v=1484373638\">
+                    豫公网安备 41081102000052号
+                </a>
+            </div>
+            <div style=\"text-align:center;padding-bottom:9px;\">
+                <p>
+                    © 2018
+                    <a class=\"cat-and-sunflower\" itemprop=\"publisher\" href=\"https://imjad.cn/\">
+                        猫与向日葵
+                    </a>
+                    . Using
+                    <a target=\"_blank\" href=\"http://www.typecho.org\">
+                        Typecho
+                    </a>
+                    &amp;
+                    <a target=\"_blank\" href=\"https://yumoe.com\">
+                        Moricolor
+                    </a>
+                    . /
+                    <a href=\"https://imjad.cn/sitemap.xml\" target=\"_blank\">
+                        Sitemap
+                    </a>
+                </p>
+            </div>
+    </body>
+
+</html>";
+    }
+
+    public function getTemplateName()
+    {
+        return "Home/index.html";
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  23 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Twig_Source("<html class=\" wf-source-han-serif-sc-n4-active wf-source-han-serif-sc-n7-active wf-active\">
+    <head>
+        <meta charset=\"utf-8\">
+        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge, chrome=1\">
+        <meta http-equiv=\"Cache-Control\" content=\"no-transform\">
+        <meta http-equiv=\"Cache-Control\" content=\"no-siteapp\">
+        <meta name=\"renderer\" content=\"webkit\">
+        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\">
+        <meta name=\"theme-color\" content=\"#ECEFF1\">
+        <meta name=\"msapplication-navbutton-color\" content=\"#ECEFF1\">
+        <meta name=\"mobile-web-app-capable\" content=\"yes\">
+        <meta name=\"application-name\" content=\"猫与向日葵\">
+        <meta name=\"msapplication-starturl\" content=\"https://imjad.cn\">
+        <meta name=\"msapplication-navbutton-color\" content=\"#ECEFF1\">
+        <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">
+        <meta name=\"apple-mobile-web-app-title\" content=\"猫与向日葵\">
+        <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black-translucent\">
+        <title>
+            猫与向日葵
+        </title>
+        <meta name=\"description\" content=\"浊以静之徐清，安以动之徐生\">
+        <meta name=\"keywords\" content=\"AD's Blog,journey.ad,imjad.cn,typecho,php,blog,猫与向日葵\">
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at
+        the end of file. -->
+        <!--[if lt IE 9]>
+        <![endif]-->
+    </head>
+    <body class=\"\">
+        <div class=\"waifu\" style=\"display: block;\">
+            <div class=\"waifu-tips\" style=\"opacity: 0;\">
+                因为无法再见面，所以要笑着说再见。
+            </div>
+            <canvas id=\"live2d\" width=\"280\" height=\"250\" class=\"live2d\">
+            </canvas>
+            <div class=\"waifu-tool\">
+                <span class=\"fui-home\">
+                </span>
+                <span class=\"fui-eye\">
+                </span>
+                <span class=\"fui-chat\">
+                </span>
+                <span class=\"fui-user\">
+                </span>
+                <span class=\"fui-photo\">
+                </span>
+                <span class=\"fui-info-circle\">
+                </span>
+                <span class=\"fui-cross\">
+                </span>
+            </div>
+        </div>
+        <header>
+            <div class=\"container\" id=\"main\">
+                <a id=\"logo\" href=\"https://imjad.cn/\">
+                    <svg class=\"animation\" height=\"60\" xmlns=\"http://www.w3.org/2000/svg\">
+                        <text stroke-dasharray=\"90 310\" stroke-width=\"1px\" text-shadow=\"0 0 1px #3498db\"
+                        stroke=\"#3498db\" fill=\"none\" text-transform=\"uppercase\" y=\"100%\" x=\"50%\"
+                        text-anchor=\"middle\" font-family=\"Makinas-Scrap-5-Cat-and-Sunflower\" font-size=\"60\">
+                            猫与向日葵
+                            <animate attributeName=\"stroke-dashoffset\" begin=\"-2s\" dur=\"8s\" from=\"0\"
+                            to=\"-400\" repeatCount=\"indefinite\">
+                            </animate>
+                        </text>
+                        <text stroke-dasharray=\"90 310\" stroke-width=\"1px\" text-shadow=\"0 0 1px #f39c12\"
+                        stroke=\"#f39c12\" fill=\"none\" text-transform=\"uppercase\" y=\"100%\" x=\"50%\"
+                        text-anchor=\"middle\" font-size=\"60\" font-family=\"Makinas-Scrap-5-Cat-and-Sunflower\">
+                            猫与向日葵
+                            <animate attributeName=\"stroke-dashoffset\" begin=\"-4s\" dur=\"8s\" from=\"0\"
+                            to=\"-400\" repeatCount=\"indefinite\">
+                            </animate>
+                        </text>
+                        <text stroke-dasharray=\"90 310\" stroke-width=\"1px\" text-shadow=\"0 0 1px #e74c3c\"
+                        stroke=\"#e74c3c\" fill=\"none\" text-transform=\"uppercase\" y=\"100%\" x=\"50%\"
+                        text-anchor=\"middle\" font-size=\"60\" font-family=\"Makinas-Scrap-5-Cat-and-Sunflower\">
+                            猫与向日葵
+                            <animate attributeName=\"stroke-dashoffset\" begin=\"-6s\" dur=\"8s\" from=\"0\"
+                            to=\"-400\" repeatCount=\"indefinite\">
+                            </animate>
+                        </text>
+                        <text stroke-dasharray=\"90 310\" stroke-width=\"1px\" text-shadow=\"0 0 1px #9b59b6\"
+                        stroke=\"#9b59b6\" fill=\"none\" text-transform=\"uppercase\" y=\"100%\" x=\"50%\"
+                        text-anchor=\"middle\" font-size=\"60\" font-family=\"Makinas-Scrap-5-Cat-and-Sunflower\">
+                            猫与向日葵
+                            <animate attributeName=\"stroke-dashoffset\" begin=\"-8s\" dur=\"8s\" from=\"0\"
+                            to=\"-400\" repeatCount=\"indefinite\">
+                            </animate>
+                        </text>
+                    </svg>
+                    <svg class=\"text\" height=\"60\" xmlns=\"http://www.w3.org/2000/svg\">
+                        <text font-family=\"Makinas-Scrap-5-Cat-and-Sunflower\" font-size=\"60\" fill=\"#69798b\"
+                        y=\"100%\" x=\"0\">
+                            猫与向日葵
+                        </text>
+                    </svg>
+                </a>
+                <!--猫与向日葵-->
+                <!--<p class=\"description\">浊以静之徐清，安以动之徐生</p>-->
+                <p class=\"description\">
+                    浊以静之徐清，安以动之徐生。
+                </p>
+                <hr>
+            </div>
+        </header>
+        <div id=\"main\" class=\"container\">
+            <div id=\"main-index\" style=\"\">
+                <h4>
+                    記事
+                </h4>
+                <article>
+                    <dl class=\"dl-horizontal\">
+                        <dt>
+                            <a style=\"color:#34495e;\" data-toggle=\"collapse\" href=\"#1\" aria-expanded=\"false\"
+                            aria-controls=\"使用FontForge为网站标题制作自定义字体\">
+                                <time datetime=\"2018-08-01T13:18:00+08:00\" itemprop=\"datePublished\">
+                                    Aug 1, 2018
+                                </time>
+                            </a>
+                        </dt>
+                        <dd>
+                            <a class=\"article-original\" style=\"\" itemtype=\"url\" href=\"https://imjad.cn/archives/lab/make-a-custom-font-for-the-title-of-the-website\">
+                                使用
+                                <space>
+                                </space>
+                                FontForge
+                                <space>
+                                </space>
+                                为网站标题制作自定义字体
+                            </a>
+                        </dd>
+                        <dd class=\"collapse in\" id=\"1\">
+                            <small>
+                                如果换个思路，一个网页一般情况下只使用了一部分字符，那么我们把所需的这些个字符从原始字体中提取出来，然后组成为一个新字体，不就可以减少大小了吗？Typekit
+                                <space>
+                                </space>
+                                正是这样做的，切片按需加载字体，极大减少了资源浪费。按着同样的思路，经过一番搜索之后，我找到了提取字体的方法
+                            </small>
+                        </dd>
+                    </dl>
+                </article>
+            </div>
+            <div id=\"pagenav\" class=\"text-right\" style=\"\">
+                <ul class=\"pager\">
+                    <li class=\"previous\">
+                        <a class=\"next\" title=\"\" href=\"https://imjad.cn/page/2/\">
+                            <span>
+                                <i class=\"fui-arrow-left\">
+                                </i>
+                            </span>
+                        </a>
+                    </li>
+                    <!-- Make dropdown appear above pagination -->
+                    <li class=\"pagination-dropdown dropup\">
+                        <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">
+                            <span class=\"fui-list\">
+                            </span>
+                        </a>
+                        <!-- Dropdown menu -->
+                        <ul class=\"dropdown-menu dropdown-menu-inverse\" style=\"margin-bottom:15px;\">
+                            <li>
+                                <a href=\"https://imjad.cn/archives.html\" target=\"_blank\">
+                                    Archives
+                                </a>
+                            </li>
+                            <li>
+                                <a href=\"https://imjad.cn/project.html\" target=\"_blank\">
+                                    Project
+                                </a>
+                            </li>
+                            <li>
+                                <a href=\"https://imjad.cn/links.html\" target=\"_blank\">
+                                    Links
+                                </a>
+                            </li>
+                            <li>
+                                <a href=\"https://imjad.cn/guestbook.html\" target=\"_blank\">
+                                    Guestbook
+                                </a>
+                            </li>
+                            <li>
+                                <a href=\"https://imjad.cn/booklist.html\" target=\"_blank\">
+                                    Booklist
+                                </a>
+                            </li>
+                            <li>
+                                <a href=\"https://imjad.cn/about.html\" target=\"_blank\">
+                                    About
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class=\"next\">
+                        <a title=\"\" data-toggle=\"tooltip\" data-original-title=\"没有了\">
+                            <span>
+                                <i class=\"fui-arrow-right\">
+                                </i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id=\"bottomtools\" style=\"\">
+                <h4 style=\"font-weight:400;\">
+                    (ฅ´ω`ฅ)
+                </h4>
+                <small>
+                    <ul>
+                        <section class=\"bottomtool\">
+                            <div id=\"hitokoto\" data-raw=\"{&quot;hitokoto&quot;:&quot;应该可以了吧，我已经很努力了，应该可以抵达终点了⋯⋯&quot;,&quot;author&quot;:&quot;绤谷少年。&quot;,&quot;source&quot;:&quot;AIR&quot;,&quot;date&quot;:&quot;2011.11.02 02:22:59&quot;,&quot;catname&quot;:&quot;Anime - 动画&quot;,&quot;id&quot;:&quot;1320171779000&quot;}\">
+                                Hitokoto&nbsp; · &nbsp;&nbsp;应该可以了吧，我已经很努力了，应该可以抵达终点了⋯⋯
+                            </div>
+                            <span style=\"padding-right: 1px;\">
+                                Category
+                            </span>
+                            · &nbsp;
+                            <a style=\"color:#95A5A6;\" href=\"https://imjad.cn/category/code/\">
+                                &amp;
+                                <space>
+                                </space>
+                                代码
+                            </a>
+                            &nbsp; · &nbsp;
+                            <a style=\"color:#95A5A6;\" href=\"https://imjad.cn/category/lab/\">
+                                &amp;
+                                <space>
+                                </space>
+                                实验室
+                            </a>
+                            &nbsp; · &nbsp;
+                            <a style=\"color:#95A5A6;\" href=\"https://imjad.cn/category/music/\">
+                                &amp;
+                                <space>
+                                </space>
+                                音乐
+                            </a>
+                            &nbsp; · &nbsp;
+                            <a style=\"color:#95A5A6;\" href=\"https://imjad.cn/category/acg/\">
+                                &amp;ACG
+                            </a>
+                            &nbsp; · &nbsp;
+                            <a style=\"color:#95A5A6;\" href=\"https://imjad.cn/category/none/\">
+                                &amp;
+                                <space>
+                                </space>
+                                未分类
+                            </a>
+                            &nbsp; · &nbsp;
+                            <a style=\"color:#95A5A6;\" href=\"https://imjad.cn/category/old-school/\">
+                                &amp;
+                                <space>
+                                </space>
+                                老古董
+                            </a>
+                            &nbsp; · &nbsp;
+                            <br>
+                        </section>
+                    </ul>
+                    <form method=\"post\">
+                        <input autocomplete=\"off\" name=\"s\" type=\"text\" class=\"form-control input-sm\"
+                        placeholder=\"Search anything here~\">
+                    </form>
+                </small>
+            </div>
+        </div>
+        <div id=\"thatsi\" style=\"margin-top: 20px;\">
+            <center>
+                <a style=\"color:#34495e;\" href=\"javascript:void(0)\">
+                    <i id=\"getT\" class=\"zmdi zmdi-chevron-down zmdi-hc-2x\">
+                    </i>
+                </a>
+            </center>
+        </div>
+        <img style=\"height: 0px;width: 0px;display: none;\" src=\"https://imjad.cn/usr/themes/Moricolor/img/icon@256x256.png\">
+        <footer id=\"footer\" class=\"container\" style=\"display: block;\">
+            <hr>
+            <div style=\"text-align:center;padding-bottom:9px;font-size:.9em;\">
+                <a href=\"http://www.miitbeian.gov.cn/\" rel=\"nofollow\" target=\"_blank\">
+                    豫ICP备15033156号-1
+                </a>
+                /
+                <a href=\"http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=41081102000052\"
+                rel=\"nofollow\" target=\"_blank\">
+                    <img style=\"height: 1.2em;vertical-align: middle;\" src=\"https://cdn.imjad.cn/usr/themes/Moricolor/img/ghs.png?v=1484373638\">
+                    豫公网安备 41081102000052号
+                </a>
+            </div>
+            <div style=\"text-align:center;padding-bottom:9px;\">
+                <p>
+                    © 2018
+                    <a class=\"cat-and-sunflower\" itemprop=\"publisher\" href=\"https://imjad.cn/\">
+                        猫与向日葵
+                    </a>
+                    . Using
+                    <a target=\"_blank\" href=\"http://www.typecho.org\">
+                        Typecho
+                    </a>
+                    &amp;
+                    <a target=\"_blank\" href=\"https://yumoe.com\">
+                        Moricolor
+                    </a>
+                    . /
+                    <a href=\"https://imjad.cn/sitemap.xml\" target=\"_blank\">
+                        Sitemap
+                    </a>
+                </p>
+            </div>
+    </body>
+
+</html>", "Home/index.html", "D:\\www\\myFramework\\application\\Views\\Home\\index.html");
+    }
+}
