@@ -14,9 +14,9 @@ class Twig {
     const VIEW_PATH = __ROOT__ . '/application/Views/';
 
     /**
-     * Twig constructor.
-     * @param $view
-     * @param $data
+     * View and param initalize.
+     * @param $view String View name
+     * @param $data Array  data array
      */
     public function __construct($view, $params)
     {
@@ -25,10 +25,17 @@ class Twig {
         $this->makeLoader()->makeTwigTemplateObject();
     }
 
+    /**
+     * This function will make a twig object.
+     */
     public function makeTwigTemplateObject() {
         $this->twig = new \Twig_Environment($this->loader, ['cache' => self::getCacheFolder(), 'debug' => APP_DEBUG]);
     }
 
+    /**
+     * Make a file system object of twig.
+     * @return Object This class's object.
+     */
     public function makeLoader() {
         $this->loader = new \Twig_Loader_Filesystem(self::VIEW_PATH);
         return $this;
@@ -44,7 +51,7 @@ class Twig {
     }
 
     /**
-     * [getCacheFolder description]
+     * Return view's full path, but not view.
      * @return [type] [description]
      */
     public static function getCacheFolder() {
