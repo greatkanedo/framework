@@ -1,7 +1,7 @@
 {
 	"require": {
 		"noahbuscher/macaw": "dev-master",
-		"illuminate/database": "^5.4",
+		"illuminate/database": "^6.20",
 		"twig/twig":"*",
 		"pagerfanta/pagerfanta": "^2.0"
 	},
